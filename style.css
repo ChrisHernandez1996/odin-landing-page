@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  min-height: 180vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding-top: 10px;
+  background-color: #1F2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.left_side {
+  width: 300px;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.content {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  padding: 0 200px;
+}
+
+.first {
+  background-color: #1F2937;
+  color: white;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+.title_container {
+  flex: 1;
+  max-width: 500px;
+}
+
+.title {
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+}
+
+.title_paragraph {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 6px;
+  font-size: 18px;
+}
+
+.top_sign_up, .bottom_sign_up {
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 8px 20px;
+  color: white;
+  border: none;
+  background-color: #3882f6;
+  cursor: pointer;
+}
+
+.image_container {
+  background-color: gray;
+  flex: 1;
+  height: 150px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.image_placeholder_text {
+  margin-top: 65px;
+}
+
+.second {
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 0 250px;
+}
+
+.illustration_images_container {
+  display: flex;
+  gap: 60px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.image {
+  width: 100%;
+  height: 140px;
+  border: 2px solid #3882f6;
+  border-radius: 7px;
+  background-color: white;
+}
+
+.illustration_image {
+  width: 180px;
+  height: 230px;
+}
+
+.third {
+  background-color: #E5E7EB;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  margin: 0;
+}
+
+.author {
+  align-self: end;
+  font-weight: bold;
+}
+
+.fourth {
+  background-color: white;
+}
+
+.sign_up_container {
+  background-color: #3882f6;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 50px;
+  color: white;
+  border-radius: 5px;
+  margin: 0
+}
+
+.action_text {
+  margin: 0;
+  font-weight: bold;
+}
+
+.sign_up_text {
+  margin: 0;
+}
+
+.bottom_sign_up {
+  border: 2px solid white;
+}
+
+.footer {
+  background-color: #1F2937;
+  margin-top: auto;
+  text-align: center;
+  color: white;
+}
